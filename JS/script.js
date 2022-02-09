@@ -3,7 +3,7 @@ document.getElementById('loginButton').addEventListener('click', function(){
     let userEmail = document.getElementById('user-email');
     let userPassword = document.getElementById('user-password');
     if(userEmail.value == 'mahir' && userPassword.value == 'mahir'){
-        console.log('Valid User');
+        //console.log('Valid User');
         window.location.href = "homePage.html";
     }else{
         alert('User Not Found');
@@ -12,3 +12,4 @@ document.getElementById('loginButton').addEventListener('click', function(){
     userEmail.value = "";
     userPassword.value = "";
 })
+
